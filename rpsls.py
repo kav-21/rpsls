@@ -67,7 +67,7 @@ def rpsls(name):
     elif (comp_number + 2) % 5 == player_number:
         print "Player wins!"
     elif comp_number == player_number:
-        print "Player and computer tie!"
+        print "Its a tie!"
     else:
         print "Computer wins!"
     print ""       
